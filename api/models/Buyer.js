@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  tableName: 'buyer',
+  tableName: "buyer",
   attributes: {
     createdBy : {
       type: 'number'

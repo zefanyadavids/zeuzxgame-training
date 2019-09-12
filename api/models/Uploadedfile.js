@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-	tableName: "zeusx_uploadedfile",
+	tableName: "seller_uploadedfile",
 	attributes: {
 		UUID: {
 			type: 'string'

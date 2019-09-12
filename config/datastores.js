@@ -35,5 +35,10 @@ module.exports.datastores = {
   postgresql: {
     adapter: require('sails-postgresql'),
     url: 'postgresql://postgres:12345678@localhost/zeuzxgame'
+  },
+
+  postgresql: {
+    adapter: require('sails-postgresql'),
+    url: 'postgresql://postgres:12345678@192.168.0.223/zeuzxgame'
   }
 };
