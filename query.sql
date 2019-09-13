@@ -59,3 +59,15 @@ CREATE TABLE seller_address
 	"createdBy" integer,
 	"updatedBy" integer
 );
+
+
+CREATE TABLE region
+(
+	id serial PRIMARY KEY,
+	"region_name" varchar,
+	"region_postalcode" integer,
+	"createdAt" timestamp with time zone,
+	"updatedAt" timestamp with time zone,
+	"createdBy" integer,
+	"updatedBy" integer
+);
